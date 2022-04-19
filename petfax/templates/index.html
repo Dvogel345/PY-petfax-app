@@ -1,9 +1,0 @@
-<body>
-    <h1>Welcome to PetFax</h1>
-    {% for pet in pets %}
-        <!-- <h2>{{ pet.pet_id }}</h2> -->
-        <h2>{{ pet.pet_name }}</h2>
-        <img src="{{ pet.pet_photo }}" alt="photo of pet"/>
-        <p>{{ pet.pet_fact }}</p>
-    {% endfor %}
-</body>
