@@ -4,7 +4,7 @@ import json
 pets = json.load(open('pets.json'))
 print(pets)
 
-bp = Blueprint('pets', __name__, url_prefix="/pets")
+bp = Blueprint('pet', __name__, url_prefix="/pets")
 
 @bp.route('/')
 def index(): 
