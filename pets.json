@@ -1,18 +1,18 @@
 [
     {   
         "pet_id": 1,
-        "pet_name": "Kiko",
+        "pet_name": "Kai",
         "pet_photo": "66994538963__F52EAF7B-433A-4099-9E7F-024C8E861DFA.jpg",
         "pet_fact": "Some cats like chasing laser lights, but shepards do too!"
     },{   
         "pet_id": 2,
-        "pet_name": "Thumper",
+        "pet_name": "Kaiser",
         "pet_photo": "67190496923__65D181BB-9D06-4A7F-A813-FC1A8659090F.jpg",
         "pet_fact": "German Shepards are very loyal and can be vicious towards strangers"
     },{   
         "pet_id": 3,
-        "pet_name": "Max",
-        "pet_photo": "P67199057693__E946A64C-9591-43A0-99C6-E1A74DBB1AEF.jpg",
-        "pet_fact": "A dog’s nose print is unique, much like a person’s fingerprint"
+        "pet_name": "KaiKai",
+        "pet_photo": "67199057693__E946A64C-9591-43A0-99C6-E1A74DBB1AEF.jpg",
+        "pet_fact": "A dog's nose print is unique, much like a person's fingerprint"
     }
 ]
