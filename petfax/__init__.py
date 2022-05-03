@@ -1,12 +1,16 @@
 # config                    
 from flask import Flask
 from flask_migrate import Migrate 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # factory
 def create_app():
     app = Flask(__name__)
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Dk_D0oM13!@localhost:5432/petfax'
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False     
     
     from . import models 
